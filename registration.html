@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>emergency medical system - registration</title>
+    </head>
+    <body>
+        <h1> emergency medical system</h1>
+        <hr>
+        <a href="index.html">Home</a>&nbsp;&nbsp;<a href="login.html">Login</a></a>&nbsp;&nbsp;<a href="registration.html">Registration</a>&nbsp;&nbsp;<a href="Services.html">Services</a>&nbsp;&nbsp;<a href="payment.html">Payment</a>        <h2> Registration</h2>
+        <form action="registration.php" method="post">
+        <table style="width:300px;height:150px;border:1px solid;">
+        <tr>
+            <td>First_name:</td>
+            <td> <input type ="text" id="first_name" name="first_name" value=""></td>
+        </tr>
+        <tr>
+            <td>Last_name:</td>
+            <td> <input type ="text" id="last_name" name="last_name" value=""></td>
+        </tr>
+        <tr>
+            <td>Password:</td>
+            <td> <input type ="password" id="pass" name="pass" value=""></td>
+        </tr>
+        <tr>
+            <td>Blood_group:</td>
+            <td> <select id="blood_group" name="blood_group">
+                <option value="O+">O+</option>
+                <option value="O-">O-</option>
+                <option value="A+">A+</option>
+                <option value="A-">A-</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>Phone_number:</td>
+            <td> <input type ="number" id="phone_number" name="phone_number" value=""></td>
+        </tr>
+        <tr>
+            <td>Address:</td>
+            <td> <input type ="text" id="address" name="address" value=""></td>
+        </tr>
+        <tr>
+            <td> <input type ="submit"  value="REGISTER"></td>
+            <td></td>
+        </tr>
+
+        </table>
+        </form>
+    </body>
+</html>
